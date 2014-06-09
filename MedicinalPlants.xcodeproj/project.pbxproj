@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3E129E19463B590030B419 /* TWOPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E129D19463B590030B419 /* TWOPlant.m */; };
 		9A46AB8B1944EAD400EBE836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A46AB8A1944EAD400EBE836 /* Foundation.framework */; };
 		9A46AB8D1944EAD400EBE836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A46AB8C1944EAD400EBE836 /* CoreGraphics.framework */; };
 		9A46AB8F1944EAD400EBE836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A46AB8E1944EAD400EBE836 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A3E129C19463B590030B419 /* TWOPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWOPlant.h; path = ../TWOPlant.h; sourceTree = "<group>"; };
+		9A3E129D19463B590030B419 /* TWOPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWOPlant.m; path = ../TWOPlant.m; sourceTree = "<group>"; };
 		9A46AB871944EAD400EBE836 /* MedicinalPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicinalPlants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A46AB8A1944EAD400EBE836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A46AB8C1944EAD400EBE836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				9A46AB9C1944EAD400EBE836 /* Main.storyboard */,
 				9A46AB9F1944EAD400EBE836 /* TWOViewController.h */,
 				9A46ABA01944EAD400EBE836 /* TWOViewController.m */,
+				9A3E129C19463B590030B419 /* TWOPlant.h */,
+				9A3E129D19463B590030B419 /* TWOPlant.m */,
 				9A46ABA21944EAD400EBE836 /* Images.xcassets */,
 				9A46AB911944EAD400EBE836 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				9A46ABA11944EAD400EBE836 /* TWOViewController.m in Sources */,
 				9A46AB971944EAD400EBE836 /* main.m in Sources */,
+				9A3E129E19463B590030B419 /* TWOPlant.m in Sources */,
 				9A46AB9B1944EAD400EBE836 /* TWOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				9A46ABBB1944EAD500EBE836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A46ABBC1944EAD500EBE836 /* Build configuration list for PBXNativeTarget "MedicinalPlantsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				9A46ABBE1944EAD500EBE836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
